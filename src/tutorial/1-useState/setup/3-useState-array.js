@@ -28,7 +28,6 @@ const UseStateArray = () => {
       </button>
     </div>
   );
-  // return peaple.map((el) => <p>{el}</p>);
 };
 
 export default UseStateArray;
