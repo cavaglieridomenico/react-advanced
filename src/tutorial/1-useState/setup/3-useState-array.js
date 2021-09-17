@@ -5,8 +5,10 @@ const UseStateArray = () => {
   const [peaple, setPeaple] = React.useState(data);
 
   const removeItem = (item) => {
-    const newPeaple = peaple.filter((el) => el.id !== item);
-    setPeaple(newPeaple);
+    setPeaple((prevPeaple) => {
+      const newPeaple = prevPeaple.filter((el) => el.id !== item);
+      return newPeaple;
+    });
   };
 
   return (
