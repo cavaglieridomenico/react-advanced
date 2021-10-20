@@ -6,9 +6,7 @@ import { AppProvider } from './tutorial/13-useContex-useReduce/context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
-      <App />
-    </AppProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
