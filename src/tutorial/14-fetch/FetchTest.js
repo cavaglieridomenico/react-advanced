@@ -17,7 +17,7 @@ const FetchTest = () => {
   useEffect(() => {
     console.log('fetch!');
     getFetchData();
-  }, [getFetchData]);
+  }, [getFetchData, letter]);
   return (
     <>
       <h1>Elenco</h1>
